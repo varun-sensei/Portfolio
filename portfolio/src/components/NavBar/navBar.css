@@ -1,0 +1,24 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.destopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.destopMenuListItem:hover {
+    color: rgb(63, 212, 89);
+    padding: 0.5rem;
+    border-bottom: 3px solid rgb(63, 212, 89);
+}
